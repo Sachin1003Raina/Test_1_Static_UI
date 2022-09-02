@@ -1,0 +1,92 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* height: 700px; */
+   
+    
+}
+
+.heading{
+    margin: 0px;
+
+}
+
+.content{
+    background-color: rgb(0, 0, 26);
+    padding: 20px;
+    border-radius: 20px;
+    min-width: 600px;
+}
+
+.bar1{
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    order: 1;
+    margin-bottom: 10px;
+}
+
+.date{
+    background-color: rgb(0, 0, 26);
+    border-radius: 10px;
+    padding: 8px;
+    width: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    
+}
+
+.month{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.year{
+    margin: 0px;
+    font-size: 10px; 
+    text-align: center;
+}
+
+.din{
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.topic{
+    margin:  0px  0px  0px 5px;
+    font-size: 20px;
+    
+}
+
+.topicdiv{
+    flex-grow: 1;
+}
+
+.amt{
+    margin: 0px;
+    padding: 8px;
+    font-size: 20px;
+    background-color: rgb(60, 2, 60);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+}
+
+.amt:hover {
+    opacity: 0.8;
+}
